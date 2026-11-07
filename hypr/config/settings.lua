@@ -62,8 +62,28 @@ for i = 1, 10 do
   })
   hl.workspace_rule({
     workspace = tostring(10 + i),
-    monitor = "DP-1",
+    monitor = "DP-2",
     default = (i == 1),
     persistent = true,
   })
 end
+
+hl.window_rule({
+    match = { class = "^(firefox)$" },
+    workspace = "1 silent",
+})
+
+hl.window_rule({
+    match = { class = "^([Ss]team)$" },
+    workspace = "2 silent",
+})
+
+hl.window_rule({
+    match = { class = "^(org.telegram.desktop)$" },
+    workspace = "3 silent",
+})
+
+hl.window_rule({
+    match = { class = "^([Vv]esktop)$" },
+    workspace = "4 silent",
+})
