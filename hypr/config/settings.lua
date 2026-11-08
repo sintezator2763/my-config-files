@@ -56,13 +56,13 @@ hl.animation({ leaf = "specialWorkspaceOut", enabled = true, speed = 5, bezier =
 for i = 1, 10 do
   hl.workspace_rule({
     workspace = tostring(i),
-    monitor = "DP-3",
+    monitor = "DP-2",
     default = (i == 1),
     persistent = true,
   })
   hl.workspace_rule({
     workspace = tostring(10 + i),
-    monitor = "DP-2",
+    monitor = "DP-3",
     default = (i == 1),
     persistent = true,
   })

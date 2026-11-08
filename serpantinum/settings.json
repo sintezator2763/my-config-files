@@ -1,0 +1,317 @@
+{
+  "general": {
+    "language": "ru",
+    "avatarPath": "",
+    "muteSfx": false,
+    "weatherInterval": 15,
+    "weatherUnit": "metric",
+    "location": {
+      "ip": "185.113.208.235",
+      "latitude": 54.70651,
+      "longitude": 20.510932,
+      "city": "Kaliningrad",
+      "region": "Kaliningrad Oblast",
+      "region_code": "KGD",
+      "country_name": "Russia",
+      "country_code": "RU",
+      "postal": "236011",
+      "timezone": "Europe/Kaliningrad",
+      "utc_offset": "+0200",
+      "currency": "RUB",
+      "languages": "ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,kbd,krc,av,sah,nog",
+      "asn": "AS8774",
+      "org": "OOO Kompaniya Etype",
+      "source": "ipapi.co",
+      "updated_at": 1794056210
+    }
+  },
+  "syspanel": {
+    "clipExpandProgress": 0,
+    "clipExpanded": false,
+    "clipState": 1
+  },
+  "bar": {
+    "position": "top",
+    "width": 100,
+    "height": 40,
+    "opacity": 100,
+    "style": "fill",
+    "time": {
+      "format": "HH:mm:ss"
+    },
+    "autohide": false,
+    "autohideTimeout": 1000,
+    "modules": {
+      "left": [
+        "workspaces",
+        "media",
+        "vis"
+      ],
+      "center": [
+        [
+          "timedate",
+          "weather",
+          "info"
+        ]
+      ],
+      "right": [
+        "sysmon",
+        "tray",
+        "kb",
+        [
+          "wifi",
+          "vol"
+        ],
+        "bt",
+        [
+          "left",
+          "bat"
+        ]
+      ]
+    },
+    "groupColors": {
+      "g_timedate": "#adc6ff",
+      "g_wifi": "#583e5b",
+      "g_left": "#2b4678"
+    },
+    "menuStyle": "button",
+    "menuItems": [
+      "settings",
+      "launcher",
+      "shuffle"
+    ],
+    "workspacesStyle": "numbers",
+    "workspaces": {
+      "perMonitorNumbering": true,
+      "monitors": {
+        "DP-3": {
+          "first": 1,
+          "count": 10
+        },
+        "DP-1": {
+          "first": 11,
+          "count": 10
+        }
+      }
+    },
+    "timeStyle": "classic",
+    "visBarCount": 16,
+    "visAlignment": "center",
+    "visContinuous": false,
+    "sysmonStyle": "wave",
+    "sysmonStats": [
+      "cpu",
+      "ram",
+      "temp",
+      "disk"
+    ],
+    "wifiShowIcon": true,
+    "wifiShowName": true,
+    "mediaInfoMode": "duration",
+    "mediaWidth": 140,
+    "hideEmptyWorkspaces": false,
+    "distinctPills": false,
+    "centerByEdges": true
+  },
+  "theme": {
+    "fontFamily": "Adwaita Mono",
+    "borderRadius": 10,
+    "activePreset": "Matugen",
+    "matugen": true,
+    "apps": [
+      "bat",
+      "btop",
+      "cava",
+      "fastfetch",
+      "firefox",
+      "fish",
+      "fzf",
+      "gtk",
+      "kitty",
+      "micro",
+      "qt",
+      "vim"
+    ],
+    "blurBackground": false,
+    "blurStyle": "liquid"
+  },
+  "idle": {
+    "enabled": true,
+    "actions": {
+      "dim": {
+        "id": "dim",
+        "timeout": 150,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "dpms": {
+        "id": "dpms",
+        "timeout": 450,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "lock": {
+        "id": "lock",
+        "timeout": 300,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "suspend": {
+        "id": "suspend",
+        "timeout": 600,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      }
+    },
+    "customActions": [],
+    "manualInhibit": false,
+    "caffeineStartTime": 0,
+    "caffeineEndTime": 0
+  },
+  "notifications": {
+    "dnd": false,
+    "position": "top right",
+    "sound": false,
+    "soundFile": "/home/sintezator/.local/share/serpantinum/src/assets/sounds/notifications/Botanica.wav"
+  },
+  "display": {
+    "monitors": {
+      "eDP-1": {
+        "enabled": false,
+        "scale": 1
+      },
+      "DP-3": {
+        "enabled": false,
+        "scale": 1
+      },
+      "DP-1": {
+        "scale": 0.75
+      },
+      "DP-2": {
+        "scale": 1
+      }
+    }
+  },
+  "dock": {
+    "enabled": true,
+    "position": "bottom",
+    "onTop": true,
+    "elementSize": 46,
+    "floating": false,
+    "background": true,
+    "exclusive": false,
+    "autohide": true,
+    "smartAutohide": true,
+    "autohideTimeout": 1000,
+    "editing": false,
+    "apps": [
+      {
+        "name": "Kitty",
+        "comment": "Fast, feature-rich, GPU based terminal",
+        "desktop_id": "kitty",
+        "icon": "kitty"
+      },
+      {
+        "name": "Files",
+        "comment": "Access and organize files",
+        "desktop_id": "ski",
+        "icon": "ski"
+      },
+      {
+        "name": "Firefox",
+        "comment": "Быстрый и приватный браузер",
+        "desktop_id": "firefox",
+        "icon": "firefox"
+      },
+      {
+        "name": "Steam",
+        "comment": "Приложение для игр и управления играми в Steam",
+        "desktop_id": "steam",
+        "icon": "steam"
+      },
+      {
+        "name": "Telegram",
+        "comment": "New era of messaging",
+        "desktop_id": "org.telegram.desktop",
+        "icon": "org.telegram.desktop"
+      },
+      {
+        "name": "Vesktop",
+        "comment": "Vesktop is a custom Discord desktop app",
+        "desktop_id": "vesktop",
+        "icon": "vesktop"
+      }
+    ],
+    "overrideBoundsCorrection": false,
+    "enableScrolling": false,
+    "visibleElements": 7,
+    "scrollingElements": 7,
+    "maxVisibleElements": 7,
+    "maxElements": 7,
+    "hoverScale": 124,
+    "cascadeScale": false,
+    "focusRunning": true,
+    "showRunningIndicators": true,
+    "showRunningApps": true,
+    "runningScope": "auto"
+  },
+  "wallpaperDir": "/home/sintezator/Pictures/Wallpapers",
+  "launcher": {
+    "position": "top",
+    "width": 600,
+    "itemCount": 8,
+    "terminalCommand": "kitty -e",
+    "smartRanking": true,
+    "searchProvider": "google"
+  },
+  "lockscreen": {
+    "fingerprintEnabled": true,
+    "attemptLimitEnabled": false,
+    "passwordMaxAttempts": 5,
+    "fingerprintMaxAttempts": 5,
+    "backgroundMode": "follow",
+    "customBackground": ""
+  },
+  "wallpaperTransition": {
+    "mode": "random",
+    "pool": [
+      "fade",
+      "wipe",
+      "circle",
+      "swipe"
+    ],
+    "effects": {
+      "fade": {
+        "duration": 1000
+      },
+      "wipe": {
+        "duration": 1600,
+        "orientation": "random"
+      },
+      "circle": {
+        "duration": 1600,
+        "origin": "random"
+      },
+      "swipe": {
+        "duration": 1600,
+        "direction": "random"
+      }
+    }
+  }
+}
